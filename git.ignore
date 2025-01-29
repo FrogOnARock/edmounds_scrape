@@ -1,0 +1,39 @@
+.idea/
+.venv/
+.venv
+.idea
+venv/
+
+#logs
+logs/
+*.log
+
+#data
+data/raw/
+data/processed/
+data/temp/
+etl_pipeline/data/
+
+
+#temp and cache files
+*.tmp
+*.bak
+*.swp
+.DS_Store
+*.~lock.*
+
+#env and config
+.env
+*.env
+configs/local_config.yaml
+
+#airflow files and logs
+airflow.db
+airflow.cfg
+logs/
+dags/__pycache__/
+
+#Dockerfiles
+*.pid
+*.sock
+/tmp/
